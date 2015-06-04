@@ -1,0 +1,151 @@
+body {
+    background-color: #3B4150;
+}
+
+.nav-wrapper {
+    position: relative;
+    height: 52px;
+}
+
+.main-banner {
+    background: url(../img/strainymood.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.main-banner>.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    font-family: 'Marcellus', serif;
+    color: #fff;
+}
+
+.main-banner>.banner-text .logo {
+    font-family: 'Marcellus SC', serif;
+    font-size: 80px;
+    line-height: 80px;
+    white-space: nowrap;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 6px #000;
+}
+
+.tagline {
+    font-size: 20px;
+    line-height: 20px;
+    white-space: nowrap;
+    text-shadow: 2px 2px 6px #000;
+    margin-bottom: 60px;
+}
+
+.main-banner .social a, .sound-player {
+    color: #fff;
+    font-size: 34px;
+}
+
+.social {
+    margin-bottom: 60px;
+}
+
+.sound-player {
+    display: block;
+    width: 40px;
+    cursor: pointer;
+    margin: 0 auto 30px auto;
+}
+
+.featured-music {
+    font-size: 20px;
+    line-height: 20px;
+    white-space: nowrap;
+    text-shadow: 2px 2px 6px #000;
+}
+
+.featured-music a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.newsletter {
+    padding: 20px;
+    font-size: 3em;
+    margin: 0 auto 0 auto;
+}
+
+.newsletter .btn {
+    vertical-align: 10px;
+    margin-left: 10px;
+}
+
+blockquote, .blockquote-reverse {
+    display: inline-block;
+    margin-bottom: 40px;
+    padding: 10px 20px;
+}
+
+blockquote h1, blockquote footer {
+    font-style: italic;
+}
+
+@media (max-width: 767px) {
+    blockquote h1, blockquote footer {
+        font-size: 1em;
+        line-height: 1.2em;
+    }
+
+    .endorsements blockquote {
+        max-width: 85%;
+    }
+}
+
+@media (min-width: 768px) {
+    blockquote h1, blockquote footer {
+        font-size: 1.5em;
+        line-height: 1.3em;
+    }
+
+    .endorsements blockquote {
+        max-width: 65%;
+    }
+}
+
+.endorsements blockquote:nth-child(even) {
+    float: right;
+}
+
+.endorsements {
+    margin: 60px auto 40px auto;
+    max-width: 1800px;
+}
+
+.marketing hr {
+    margin: 40px auto;
+}
+
+.marketing, .endorsements blockquote {
+    border: none;
+    background-color: #1A1D23;
+    color: #ddd;
+}
+
+.marketing {
+    padding: 60px;
+}
+
+.marketing .glyphicon {
+    font-size: 60px;
+}
+
+.footer {
+    background-color: #1A1D23;
+    padding: 10px;
+    color: #ddd;
+    font-size: 20px;
+}
