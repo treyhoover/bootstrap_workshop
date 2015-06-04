@@ -8,7 +8,6 @@ body {
 }
 
 .main-banner {
-    display: none;
     background: url(../img/strainymood.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -76,7 +75,6 @@ body {
 
 .newsletter {
     padding: 20px;
-    text-align: center;
     font-size: 3em;
     margin: 0 auto 0 auto;
 }
