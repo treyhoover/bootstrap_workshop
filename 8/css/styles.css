@@ -25,3 +25,24 @@ body {
     font-size: 3em;
     margin: 0 auto 0 auto;
 }
+
+.endorsements {
+    margin: 60px auto 40px auto;
+    max-width: 1800px;
+}
+
+.endorsements blockquote {
+    border: none;
+    background-color: #1A1D23;
+    color: #ddd;
+}
+
+blockquote, .blockquote-reverse {
+    display: inline-block;
+    margin-bottom: 40px;
+    padding: 10px 20px;
+}
+
+blockquote h1 {
+    font-style: italic;
+}
