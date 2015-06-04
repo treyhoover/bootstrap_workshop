@@ -2,6 +2,10 @@ body {
     background-color: #3B4150;
 }
 
+#sticky-nav {
+    margin: 0;
+}
+
 .marketing hr {
     margin: 40px auto;
 }
