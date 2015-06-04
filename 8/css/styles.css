@@ -72,3 +72,10 @@ blockquote, .blockquote-reverse {
 blockquote h1 {
     font-style: italic;
 }
+
+.footer {
+    background-color: #1A1D23;
+    padding: 10px;
+    color: #ddd;
+    font-size: 20px;
+}
