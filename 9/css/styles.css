@@ -2,7 +2,23 @@ body {
     background-color: #3B4150;
 }
 
+.main-banner {
+    background: url(../img/strainymood.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+}
+
 .main-banner>.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
     font-family: 'Marcellus', serif;
     color: #fff;
 }
