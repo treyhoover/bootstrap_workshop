@@ -1,0 +1,23 @@
+.marketing hr {
+    margin: 40px auto;
+}
+
+.marketing {
+    background-color: #1A1D23;
+    color: #ddd;
+}
+
+.marketing {
+    padding: 60px;
+}
+
+.marketing .glyphicon {
+    font-size: 60px;
+}
+
+.newsletter {
+    padding: 20px;
+    text-align: center;
+    font-size: 3em;
+    margin: 0 auto 0 auto;
+}
