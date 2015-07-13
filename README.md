@@ -30,6 +30,6 @@ Additional Resources
   * sass-lang.com
   * github.com/twbs/bootstrap-sass
 * **Help**
-  * @rkhoover, @getbootstrap
+  * @techytrey, @getbootstrap
   * treyhoover@gmail.com
   * [StackOverflow](http://stackoverflow.com/), [codementor](https://www.codementor.io/)
