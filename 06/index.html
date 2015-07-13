@@ -9,6 +9,37 @@
 </head>
 <body>
 
+<nav id="sticky-nav" class="navbar navbar-inverse" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Strainy Mood</a>
+        </div>
+
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li role="presentation" class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+                        Dropdown <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.nav-collapse -->
+    </div>
+</nav>
+
 <div class="newsletter well">
     Subscribe to Our Newsletter! New Sounds Every Day!
     <a href="#" class="btn btn-success btn-lg">Sign Up</a>
@@ -52,6 +83,24 @@
             </section>
         </div>
     </div>
+</div>
+
+<div class="container-fluid endorsements">
+    <blockquote>
+        <h1>I thought I could work from home without anyone noticing.
+            I panicked when I saw my boss calling, but then I remembered this site.</h1>
+        <footer>Homer S.</footer>
+    </blockquote>
+
+    <blockquote class="blockquote-reverse">
+        <h1>My office noises are always so boring. Good thing they let me bring headphones to work!</h1>
+        <footer>Hillary C.</footer>
+    </blockquote>
+
+    <blockquote>
+        <h1>This has quickly become my favorite song. It's just so catchy! RINGGGGG.</h1>
+        <footer>Mark Z.</footer>
+    </blockquote>
 </div>
 
 <!--jQuery and Bootstrap js-->

@@ -74,7 +74,7 @@ body {
     height: 52px;
 }
 
-#sticky-nav {
+.main-nav .navbar {
     margin: 0;
 }
 

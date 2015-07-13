@@ -21,10 +21,8 @@ var elementPosition = $('#sticky-nav').offset();
 
 $(document).scroll(function() {
     if($(window).scrollTop() > elementPosition.top){
-        //$('#sticky-nav').css('position','fixed').css('top','0');
         $('#sticky-nav').addClass('navbar-fixed-top');
     } else {
-        //$('#sticky-nav').css('position','static');
         $('#sticky-nav').removeClass('navbar-fixed-top');
     }
 });
