@@ -6,8 +6,8 @@
 <nav id="sticky-nav" class="navbar navbar-inverse" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 </nav>
 ```
-  * Add the header
-  ```
+* Add the header
+```
   <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed">
           <span class="sr-only">Toggle navigation</span>
@@ -17,9 +17,9 @@
       </button>
       <a class="navbar-brand" href="#">Strainy Mood</a>
   </div>
-  ```
-  * Add our links
-  ```
+```
+* Add our links
+```
   <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
           <li class="active"><a href="#">Home</a></li>
@@ -36,9 +36,9 @@
           </li>
       </ul>
   </div><!-- /.nav-collapse -->
-  ```
-  * Add a dropdown
-  ```
+```
+* Add a dropdown
+```
   <li role="presentation" class="dropdown">
       <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
           Dropdown <span class="caret"></span>
@@ -48,8 +48,8 @@
           <li><a href="#">2</a></li>
       </ul>
   </li>
-  ```
-  * Wrap navbar contents in a `container`
+```
+* Wrap navbar contents in a `container`
   
 ### Notes
 * Anything that begins with `data-` is used to control javascript behavior, not styling (in this case, it's collapsing/expanding the navbar)
